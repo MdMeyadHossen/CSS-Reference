@@ -1,0 +1,220 @@
+body{
+    background-color: mediumturquoise;
+}
+header{
+    color: rgb(2, 2, 41);
+}
+.main{
+  background-color: #ffffff;
+  margin-top: 60px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: mediumturquoise; 
+  border: 5px solid #000000;
+  padding: 1px 20px;
+  border-left-color: red;
+  border-right-color: red;
+  border-block-color:blue;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.logo img{
+    float: left;
+    width: 130px;
+    height: auto;
+}
+#fruit{
+    accent-color: red;
+}
+#main {
+    background-color: #ffffff;
+    width: 100px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  #main div {
+    width: 100px;
+    height: 70px;
+  }
+  #m2 {
+    width: 220px;
+    height: 300px;
+    border: 5px dotted black; 
+    display: flex;
+    align-items: center;
+  }
+  
+  #m2 div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  #m3 {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #m3 div {
+    flex: 1;
+  }
+  
+  #myBlueDiv {
+    align-self: center;
+  }
+  #m4 {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 238, 7);
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  }
+  span#m5{
+    border: 5px solid red;
+    padding:  0em 1em;
+    border-radius: 16px;
+    font-size: 24px;
+    line-height: 2;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  #m6{
+    border: 5px solid #000000;
+    box-shadow: 5px 10px red;
+}
+m7{
+  width: 500px;
+  height: auto;
+}
+.img{
+  clip-path: circle(50%);
+  clip-path: fill-box;
+}
+#m7{ 
+  column-count: 3;
+  column-gap: 50px;
+}
+#m8{
+  border: 2px solid#000000;
+  column-count: 3;
+  column-rule: 4px double #000000
+}
+#m9{
+  filter: grayscale(100%)
+}
+#m10{
+  width: 300px;
+  height: auto;
+  border: 2px solid #000000;
+  flex-direction: row-reverse;
+  display: flex;
+}
+.small{
+  font-variant: small-caps;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #ff0000;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(1, 255, 158, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-end: span 3;
+}
+.layout{
+  font-size: 30px;
+  background-color: #ffffff;
+  margin-top: 60px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: rgb(0, 0, 0); 
+  border: 5px solid #000000;
+  padding: 1px 20px;
+}
+.header{
+  height: 100px;
+  background-color: #ff0000;
+}
+.container{
+overflow: hidden;
+}
+.blog{
+  float: left;
+  width: 50%;
+  height: 100px;
+  background-color: green;
+}
+.contact{
+  float: right;
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+.single{
+  float: left;
+  width: 33.33%;
+height: 100px;
+}
+.yellow{
+  background-color: yellow;
+}
+.green{
+  background-color: rgb(128, 0, 128);
+}
+.red{
+  background-color: #ff0000;
+}
+.footer{
+  height: 100px;
+  background-color: #000000;
+}
+footer{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
